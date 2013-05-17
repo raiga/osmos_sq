@@ -293,14 +293,14 @@ package {
 
 				CField.graphics.clear();
 				CField.graphics.beginFill(0xFFFFFF,1);
-				CField.graphics.drawRect(0,0,stage.width, stage.height);
+				CField.graphics.drawRect(150,140,stage.width/2, stage.height/2);
 
 				
 			} else if (CGState == "Lose") {
 
 				CField.graphics.clear();
 				CField.graphics.beginFill(0xFF0000,1);
-				CField.graphics.drawRect(0,0,stage.width, stage.height);
+				CField.graphics.drawRect(150,140,stage.width/2, stage.height/2);
 
 				
 			} else if (CGState == "Steady") {
