@@ -1,14 +1,5 @@
 package {
 	
-	import com.developmentarc.core.datastructures.utils.HashTable;
-	
-	import elements.GObjects.Circle;
-	import elements.Config;
-	import elements.GObjects.Enemy;
-	import elements.GObjects.Field;
-	import elements.GUI.Menu;
-	import elements.GObjects.Player;
-	
 	import flash.display.Sprite;
 	import flash.display.StageAlign;
 	import flash.display.StageDisplayState;
@@ -26,7 +17,16 @@ package {
 	import flash.text.TextField;
 	import flash.utils.Timer;
 	
+	import com.developmentarc.core.datastructures.utils.HashTable;
+	
 	import com.json.JSON;
+	
+	import elements.GObjects.Circle;
+	import elements.Config;
+	import elements.GObjects.Enemy;
+	import elements.GObjects.Field;
+	import elements.GUI.Menu;
+	import elements.GObjects.Player;
 	
 	[SWF(backgroundColor="0x330099")]
 	public class Main extends Sprite {
@@ -221,13 +221,9 @@ package {
 			
 		}
 		
-		/**
-		 * Вызывается в самом начале приложения
-		 * @param e
-		 */
 		private function _loading(e:Event):void
 		{
-			//Сюда можно поместить лого для загрузки
+
 		}
 		public function onError(e:ErrorEvent):void
 		{
