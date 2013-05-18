@@ -22,29 +22,6 @@ public class Button extends Sprite {
 		but.height = 60;
         this.addChild(but);
     }
-
-	public function MenuButton(State:String,graphics:Graphics) {
-		if(State =="Up")
-		{
-			graphics.lineStyle(2,0x33621E,0.6);
-			graphics.beginFill(0x888888);
-		}
-		if(State =="Down")
-		{
-			graphics.lineStyle(2,0x9F91B5,0.6);
-			graphics.beginFill(0x888888);
-		}
-		if(State =="Over")
-		{
-			graphics.beginFill(0xFFFFFF);
-			graphics.drawCircle(0,0,20);
-		}
-		if(State =="HitState")
-		{
-			graphics.beginFill(0xFFFFFF);
-			graphics.drawCircle(0,0,20);
-		}
-	}
 	
     /**
      * кнопки
