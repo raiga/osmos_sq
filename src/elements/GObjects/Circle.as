@@ -14,7 +14,7 @@ package elements.GObjects
 		 */
 		protected var CType:Number = 0;
 		/**
-		 * размер (10 доли)
+		 * размер
 		 */
 		private var CSize:Number=60;
 		/**
