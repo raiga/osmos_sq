@@ -15,6 +15,7 @@ package {
 	import flash.net.URLRequestMethod;
 	import flash.system.Security;
 	import flash.text.TextField;
+	import flash.utils.Timer;
 	
 	import com.developmentarc.core.datastructures.utils.HashTable;
 	
